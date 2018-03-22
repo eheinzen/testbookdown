@@ -1,8 +1,14 @@
+---
+site: bookdown::bookdown_site
+---
 
 # Prerequisites
 
 ```{r}
 y <- ordered(c("A", "A", "B", "B"))
 x <- factor(c("C", "D", "D", "C"))
+# library(coin)
+# library(methods)
 coin::independence_test(y ~ x)
 ```
+
